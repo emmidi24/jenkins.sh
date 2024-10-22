@@ -1,0 +1,22 @@
+HOW TO INSTALL JENKINS	
+
+1. Before installing jenkins first we should install java.
+  
+To install  java use given below commond: 
+sudo apt update
+ sudo apt install fontconfig openjdk-17-jre
+
+  
+2. After installing java we have to install jenkins.
+  
+To install jenkins use given below commond.
+
+
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  <https://pkg.jenkins.io/debian binary/> | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins.
+
