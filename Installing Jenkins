@@ -3,6 +3,7 @@ HOW TO INSTALL JENKINS
 1. Before installing jenkins first we should install java.
   
 To install  java use given below commond: 
+
 sudo apt update
  sudo apt install fontconfig openjdk-17-jre
 
